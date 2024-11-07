@@ -3,7 +3,7 @@ export default function Technology() {
         <div>
             <Intro />
             <Section />
-            <div className="flex flex-col md:flex-row max-w-7xl gap-10 px-10 mx-auto text-white">
+            <div className="flex flex-col md:flex-row max-w-7xl gap-10 px-10 mx-auto text-white" data-aos="zoom-in-up" data-aos-delay="100">
                 <div className="w-full text-justify p-16">
                     <div className="text-center my-10 text-2xl">HUMAN-CENTERED DESIGN</div>
                     <div className="text-xl text-justify">
@@ -49,7 +49,7 @@ function Intro() {
 
 function Section() {
     return (
-        <div>
+        <div data-aos="fade-up" data-aos-delay="100">
             <div className="py-20 bg-black ">
                 <div className="max-w-6xl text-justify px-10 text-4xl mx-auto text-white">
                     Discover cutting-edge technology offers unmatched power and.

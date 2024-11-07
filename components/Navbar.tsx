@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
     const path = usePathname();
@@ -15,7 +16,8 @@ export default function Navbar() {
     return (
         <div className="fixed bg-white w-full h-32 font md:px-16 px-2 z-50">
             <div className="text-black md:px-8 mx-auto flex flex-row justify-between items-center h-full">
-                <Link href="/">
+                <Link href="/" className="flex gap-5">
+                    <Image src="/icon.png" alt={"Logo"} width={65} height={50} />
                     <div className="text-3xl font-bold tracking-[10px]">
                         ECOPOWER <br />
                         ELECTRICALS

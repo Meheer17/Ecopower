@@ -11,7 +11,7 @@ export default function Services() {
                 </div>
             </div>
 
-            <div className="gap-6 w-full py-20 px-10">
+            <div className="gap-6 w-full py-20 px-10" data-aos="zoom-in-up" data-aos-delay="100">
                 <div className="flex md:flex-row flex-col items-center">
                     <div className="md:w-1/2 w-full mx-center justify-center items-center p-5">
                         <div className="flex flex-col justify-center items-center">
@@ -34,7 +34,7 @@ export default function Services() {
                     ></div>
                 </div>
 
-                <div className="flex md:flex-row flex-col-reverse items-center mt-10">
+                <div className="flex md:flex-row flex-col-reverse items-center mt-10" data-aos="zoom-in-up" data-aos-delay="100">
                     <div
                         className="w-full h-full min-h-[60vh] bg-cover"
                         style={{ backgroundImage: "url('/service2.jpg')" }}
@@ -56,7 +56,7 @@ export default function Services() {
                     </div>
                 </div>
 
-                <div className="flex md:flex-row flex-col items-center mt-10">
+                <div className="flex md:flex-row flex-col items-center mt-10" data-aos="zoom-in-up" data-aos-delay="100">
                     <div className="md:w-1/2 w-full mx-center justify-center items-center">
                         <div className="flex flex-col justify-center items-center p-5">
                             <div className="text-4xl max-w-lg">
@@ -80,7 +80,7 @@ export default function Services() {
                     ></div>
                 </div>
 
-                <div className="flex md:flex-row flex-col-reverse items-center mt-10">
+                <div className="flex md:flex-row flex-col-reverse items-center mt-10" data-aos="zoom-in-up" data-aos-delay="100">
                     <div
                         className="w-full h-full min-h-[60vh] bg-cover"
                         style={{ backgroundImage: "url('/service5.png')" }}

@@ -15,12 +15,12 @@ export default function Home() {
 function Intro() {
     return (
         <div className="bg-cover solar">
-            <div className="flex px-10 flex-col items-center min-h-screen text-black text-6xl justify-center bg-gradient-to-b from-[#00000000] from-90% to-[#000000FF]">
-                <div className="leading-relaxed text-center tracking-[10px]">
+            <div className="flex md:py-0 py-32 px-10 flex-col items-center min-h-screen text-black text-6xl justify-center bg-gradient-to-b from-[#00000000] from-90% to-[#000000FF]">
+                <div className="leading-relaxed text-center tracking-[10px]" data-aos="fade-up" data-aos-delay="100">
                     Enhance your future with <br />
                     reliable solar energy.
                 </div>
-                <div className="text-3xl mt-5">
+                <div className="text-3xl mt-5" data-aos="fade-up" data-aos-delay="100">
                     Discover the latest in solar technology with Ecopower
                     Electricals.
                 </div>
@@ -32,7 +32,7 @@ function Intro() {
 function Vision() {
     return (
         <div className="bg-black py-32 md:px-10 px-5 max-w-7xl mx-auto">
-            <div className="flex text-white md:flex-row flex-col gap-5 h-full items-center">
+            <div className="flex text-white md:flex-row flex-col gap-5 h-full items-center" data-aos="fade-right" data-aos-delay="100">
                 <div className="p-5 bg-slate-100 shadow-blue-300 h-full mt-10 md:w-1/2 shadow-lg text-black rounded-xl">
                     <div className="border-l-[1px] border-black">
                         <div className="text-3xl px-4 md:pl-16 pl-8 border-l-4 border-black">
@@ -69,7 +69,7 @@ function Why() {
     return (
         <div className="work bg-fixed h-full md:p-10 p-5">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 text-white">
-                <div className="md:p-10 p-4 bg-black rounded-xl">
+                <div className="md:p-10 p-4 bg-black rounded-xl" data-aos="fade-left" data-aos-delay="100">
                     <div className="border-l-[1px] border-white h-full">
                         <div className="text-xl px-4 md:pl-16 pl-8 mbx-5">
                             WHY ECOPOWER ELECTRICALS?
@@ -109,7 +109,7 @@ function SoFar() {
                         alt="image"
                     />
                 </div>
-                <div className="p-10">
+                <div className="p-10" data-aos="zoom-in-left" data-aos-delay="100">
                     <div className="text-5xl text-center text-slate-950">
                         Ecopower In Numbers
                     </div>
@@ -156,7 +156,7 @@ function SoFar() {
 function Partners() {
     return (
         <div className="bg-black h-full md:p-10 p-5">
-            <div className="max-w-7xl py-16 mx-auto grid grid-cols-1 md:grid-cols-2 text-white">
+            <div className="max-w-7xl py-16 mx-auto grid grid-cols-1 md:grid-cols-2 text-white" data-aos="zoom-in-up" data-aos-delay="100">
                 <div className="md:p-10 p-4 bg-slate-100 shadow-blue-300 shadow-lg text-black rounded-xl md:mt-0 mt-10">
                     <div className="border-l-[1px] border-black h-full">
                         <div className="text-xl px-4 md:pl-16 pl-8 mbx-5">

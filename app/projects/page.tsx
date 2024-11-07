@@ -10,7 +10,7 @@ export default function Projects() {
                 </div>
             </div>
             <div className="gap-6 w-full py-20 px-10">
-                <div className="flex md:flex-row flex-col items-center">
+                <div className="flex md:flex-row flex-col items-center" data-aos="zoom-in-up" data-aos-delay="100">
                     <div className="md:w-1/2 w-full mx-center justify-center items-center">
                         <div className="text-4xl text-center max-w-lg mx-auto">
                             Spring Garden Health Care, Trivandrum
@@ -25,7 +25,7 @@ export default function Projects() {
                     ></div>
                 </div>
                 
-                <div className="flex md:flex-row flex-col-reverse items-center mt-10">
+                <div className="flex md:flex-row flex-col-reverse items-center mt-10" data-aos="zoom-in-up" data-aos-delay="100">
                     <div
                         className="w-full h-full min-h-[60vh] bg-cover"
                         style={{ backgroundImage: "url('/p2.jpg')" }}
@@ -41,7 +41,7 @@ export default function Projects() {
                     </div>
                 </div>
                 
-                <div className="flex md:flex-row flex-col items-center mt-10">
+                <div className="flex md:flex-row flex-col items-center mt-10" data-aos="zoom-in-up" data-aos-delay="100">
                     <div className="md:w-1/2 w-full mx-center justify-center items-center">
                         <div className="text-4xl text-center max-w-lg mx-auto">
                             SquareOne HomeMade and Beauty Parlour{" "}

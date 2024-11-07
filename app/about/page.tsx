@@ -5,7 +5,7 @@ export default function About() {
         <div>
             <Intro />
             <Vision />
-            <div
+            <div data-aos="fade-up" data-aos-delay="100"
                 style={{ backgroundImage: "url('/abt2.jpg')" }}
                 className="min-h-[70vh] bg-cover bg-center flex p-10 flex-col items-start h-full justify-center"
             >
@@ -32,7 +32,7 @@ function Intro() {
             style={{ backgroundImage: "url('/abt.jpg')" }}
         >
             <div className="flex px-10 flex-col items-center min-h-screen justify-center">
-                <div className="p-10 backdrop-blur-xl rounded-xl text-white shadow-2xl shadow-black">
+                <div className="p-10 backdrop-blur-xl rounded-xl text-white shadow-2xl shadow-black" data-aos="zoom-in-up" data-aos-delay="100">
                     <div className="leading-relaxed text-2xl text-center tracking-[10px]">
                         OUR JOURNEY
                     </div>
@@ -54,9 +54,9 @@ function Intro() {
 function Vision() {
     return (
         <div className="bg-black py-32 md:px-10 px-5 max-w-7xl mx-auto">
-            <div className="flex text-white md:flex-row flex-col gap-5 h-full items-center">
+            <div className="flex text-white md:flex-row flex-col gap-5 h-full items-center" data-aos="zoom-in-up" data-aos-delay="100">
                 <div className="p-5 bg-slate-100 shadow-blue-300 h-full mt-10 md:w-1/2 shadow-lg text-black rounded-xl">
-                    <div className="border-l-[1px] border-black">
+                    <div className="border-l-[1px] border-black" >
                         <div className="text-xl px-4 md:pl-16 pl-8 mbx-5">
                             OUR MISSION
                         </div>
