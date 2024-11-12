@@ -82,8 +82,8 @@ export default function Services() {
 
                 <div className="flex md:flex-row flex-col-reverse items-center mt-10" data-aos="zoom-in-up" data-aos-delay="100">
                     <div
-                        className="w-full h-full min-h-[60vh] bg-cover"
-                        style={{ backgroundImage: "url('/service5.png')" }}
+                        className="w-full h-full min-h-[60vh] bg-no-repeat bg-cover bg-center"
+                        style={{ backgroundImage: "url('/inverter.png')" }}
                     ></div>
                     <div className="md:w-1/2 w-full mx-center justify-center items-center p-5">
                         <div className="flex flex-col justify-center items-center">

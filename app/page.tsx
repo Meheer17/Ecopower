@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { ContactForm } from "./contact/page";
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Why />
             <SoFar />
             <Partners />
+            <ContactForm />
         </div>
     );
 }
@@ -98,11 +100,11 @@ function Why() {
 
 function SoFar() {
     return (
-        <div className="bg-slate-100 py-16 h-full">
-            <div className="grid md:grid-cols-2 grid-cols-1">
+        <div className="bg-black py-16 h-full">
+            <div className="grid md:grid-cols-2 container mx-auto grid-cols-1">
                 <div className="relative">
                     <Image
-                        src={"/lamp.jpg"}
+                        src={"/stats.jpeg"}
                         width={600}
                         height={400}
                         className="-z-50 max-h-[70vh]"
@@ -110,39 +112,39 @@ function SoFar() {
                     />
                 </div>
                 <div className="p-10" data-aos="zoom-in-left" data-aos-delay="100">
-                    <div className="text-5xl text-center text-slate-950">
+                    <div className="text-5xl text-center text-white">
                         Ecopower In Numbers
                     </div>
                     <div className="grid md:grid-cols-2 mt-5 grid-cols-1 w-full h-full">
                         <div className="flex items-center gap-5 mt-10 flex-col">
-                            <div className="text-6xl text-slate-900 pb-5 border-b-2 border-slate-600">
+                            <div className="text-6xl text-slate-300 pb-5 border-b-2 border-slate-600">
                                 10+
                             </div>
-                            <div className="text-lg text-slate-600">
+                            <div className="text-lg text-slate-100">
                                 Years of Experience
                             </div>
                         </div>
                         <div className="flex items-center gap-5 mt-10 flex-col">
-                            <div className="text-6xl text-slate-900 pb-5 border-b-2 border-slate-600">
+                            <div className="text-6xl text-slate-300 pb-5 border-b-2 border-slate-600">
                                 100+
                             </div>
-                            <div className="text-lg text-slate-600">
+                            <div className="text-lg text-slate-100">
                                 Projects Completed
                             </div>
                         </div>
                         <div className="flex items-center gap-5 mt-10 flex-col">
-                            <div className="text-6xl text-slate-900 pb-5 border-b-2 border-slate-600">
+                            <div className="text-6xl text-slate-300 pb-5 border-b-2 border-slate-600">
                                 100%
                             </div>
-                            <div className="text-lg text-slate-600">
+                            <div className="text-lg text-slate-100">
                                 Customer Satisfaction
                             </div>
                         </div>
                         <div className="flex items-center gap-5 mt-10 flex-col">
-                            <div className="text-6xl text-slate-900 pb-5 border-b-2 border-slate-600">
+                            <div className="text-6xl text-slate-300 pb-5 border-b-2 border-slate-600">
                                 100+
                             </div>
-                            <div className="text-lg text-slate-600">
+                            <div className="text-lg text-slate-100">
                                 Employees
                             </div>
                         </div>
