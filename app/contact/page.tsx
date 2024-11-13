@@ -132,7 +132,7 @@ function Forms() {
                             onChange={(e) =>
                                 setForm({
                                     ...form,
-                                    name: e.target.value,
+                                    location: e.target.value,
                                 })
                             }
                         />
@@ -155,7 +155,7 @@ function Forms() {
                             onChange={(e) =>
                                 setForm({
                                     ...form,
-                                    phone: e.target.value,
+                                    ebbil: e.target.value,
                                 })
                             }
                         />
@@ -178,7 +178,7 @@ function Forms() {
                             onChange={(e) =>
                                 setForm({
                                     ...form,
-                                    name: e.target.value,
+                                    solar_type: e.target.value,
                                 })
                             }
                         >
@@ -202,7 +202,7 @@ function Forms() {
                             onChange={(e) =>
                                 setForm({
                                     ...form,
-                                    name: e.target.value,
+                                    prop_type: e.target.value,
                                 })
                             }
                         >
