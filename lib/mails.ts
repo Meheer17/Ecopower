@@ -3,7 +3,7 @@ import { SendMail } from "./nodemailer";
 
 export async function ContactMail(form: FormData) {
     const mailOptions = {
-        from: "sachinmathew1917@gmail.com",
+        from: "ecopowerelectrical.in@gmail.com",
         text: "A mail from the website",
         to: ["ecopowerelectrical.in@gmail.com"],
         html: "",

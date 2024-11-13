@@ -39,7 +39,7 @@ function Forms() {
         phone: "",
         email: "",
         message: "",
-        ebbil: 0,
+        ebbill: 0,
         solar_type: "on_grid",
         prop_type: "residential",
         location: "",
@@ -51,7 +51,7 @@ function Forms() {
             phone: "",
             email: "",
             message: "",
-            ebbil: 0,
+            ebbill: 0,
             solar_type: "on_grid",
             prop_type: "residential",
             location: "",
@@ -139,23 +139,23 @@ function Forms() {
                     </div>
                     <div className="w-1/2 px-3 mb-6 md:mb-0">
                         <label
-                            htmlFor="ebbil"
+                            htmlFor="ebbill"
                             className="block text-lg font-extralight my-2"
                         >
                             Avg Monthly EB Bill
                         </label>
                         <input
                             type="number"
-                            id="ebbil"
-                            name="ebbil"
+                            id="ebbill"
+                            name="ebbill"
                             className="w-full border text-black border-gray-300 rounded-md py-2 px-3"
-                            value={form.ebbil}
+                            value={form.ebbill}
                             required
                             placeholder="₹ 0.00"
                             onChange={(e) =>
                                 setForm({
                                     ...form,
-                                    ebbil: e.target.value,
+                                    ebbill: parseInt(e.target.value),
                                 })
                             }
                         />
