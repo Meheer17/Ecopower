@@ -34,7 +34,7 @@ export default function Footer() {
                         className="mt-10 rounded-xl mx-auto"
                     />
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15549.22157700997!2d80.2277393!3d13.016214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526700399c5381%3A0x30eee46a7309efe7!2sVishwashanthi%20Apartments%20Old!5e0!3m2!1sen!2sin!4v1730976452905!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1894.620642411595!2d80.2265716130032!3d13.015890631171853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52670049203f81%3A0x5967ae8e0438fc21!2sEcopower%20Electricals!5e0!3m2!1sen!2sin!4v1731466869268!5m2!1sen!2sin"
                         width="300"
                         height="300"
                         loading="lazy"

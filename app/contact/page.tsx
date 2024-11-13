@@ -126,7 +126,7 @@ function Forms() {
                             id="location"
                             name="location"
                             className="w-full border text-black border-gray-300 rounded-md py-2 px-3"
-                            value={form.name}
+                            value={form.location}
                             required
                             placeholder="City, State"
                             onChange={(e) =>
@@ -149,7 +149,7 @@ function Forms() {
                             id="ebbil"
                             name="ebbil"
                             className="w-full border text-black border-gray-300 rounded-md py-2 px-3"
-                            value={form.phone}
+                            value={form.ebbil}
                             required
                             placeholder="₹ 0.00"
                             onChange={(e) =>
@@ -173,7 +173,7 @@ function Forms() {
                             id="solar_type"
                             name="solar_type"
                             className="w-full border text-black border-gray-300 rounded-md py-2 px-3"
-                            value={form.name}
+                            value={form.solar_type}
                             required
                             onChange={(e) =>
                                 setForm({
@@ -197,7 +197,7 @@ function Forms() {
                             id="prop_type"
                             name="prop_type"
                             className="w-full border text-black border-gray-300 rounded-md py-2 px-3"
-                            value={form.name}
+                            value={form.prop_type}
                             required
                             onChange={(e) =>
                                 setForm({
